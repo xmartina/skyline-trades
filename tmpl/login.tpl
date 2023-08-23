@@ -16,10 +16,10 @@
 <html>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="icon" type="image/png" href="{$siteIcon}">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Login | Skylinetrades LTD</title>
+    <title>Login | {$siteName}</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <style>
