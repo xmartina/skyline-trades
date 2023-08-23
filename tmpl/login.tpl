@@ -1,3 +1,17 @@
+{$siteEmail = "info@skylinetrades.ltd"}
+{$siteLogo = "/images/logo.png"}
+{$siteIcon = "/fav.png"}
+{$siteEmail = "contact@skylinetrades.ltd"}
+{$sitePhone = "contact@skylinetrades.ltd"}
+{$aboutUrl = "?a=about"}
+{$referralUrl = "?a=affiliate"}
+{$contactUrl = "?a=support"}
+{$tAndCUrl = "?a=rules"}
+{$resetPasswordUrl = "?a=forgot_password"}
+{$loginUrl = "?a=login"}
+{$signUpUrl = "?a=signup"}
+{$accountUrl = "?a=account"}
+{$siteName = "Skyline Trades LTD"}
 <!DOCTYPE html>
 <html>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -87,7 +101,7 @@
                   <div class="d-flex align-items-center mb-3 pb-1">
                     <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
                     <span class="h1 fw-bold mb-0">
-                    	<img src="https://www.cryptoxstream.com/assets/img/logo.png" alt="logo" class="w-50"/>
+                    	<img src="{$siteLogo}" alt="logo" class="w-50"/>
                     </span>
                   </div>
 

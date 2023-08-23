@@ -1,6 +1,6 @@
 {$siteEmail = "info@skylinetrades.ltd"}
-{$siteLogo = "images/logo.png"}
-{$siteIcon = "fav.png"}
+{$siteLogo = "/images/logo.png"}
+{$siteIcon = "/fav.png"}
 {$siteEmail = "contact@skylinetrades.ltd"}
 {$sitePhone = "contact@skylinetrades.ltd"}
 {$aboutUrl = "?a=about"}
@@ -19,9 +19,9 @@
     <meta charset="utf-8">
 
     <!-- Stylesheets -->
-    <link href="home/css/bootstrap.css" rel="stylesheet">
-    <link href="home/css/style.css" rel="stylesheet">
-    <link href="home/css/responsive.css" rel="stylesheet">
+    <link href="/home/css/bootstrap.css" rel="stylesheet">
+    <link href="/home/css/style.css" rel="stylesheet">
+    <link href="/home/css/responsive.css" rel="stylesheet">
 
     <!--<link rel="shortcut icon" href="images1/favicon.html" type="image/x-icon"> -->
     <link rel="icon" href="{$siteIcon}" type="image/x-icon">
