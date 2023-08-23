@@ -1,6 +1,21 @@
+{$siteEmail = "info@skylinetrades.ltd"}
+{$siteLogo = "/images/logo.png"}
+{$siteIcon = "/fav.png"}
+{$siteEmail = "contact@skylinetrades.ltd"}
+{$sitePhone = "contact@skylinetrades.ltd"}
+{$aboutUrl = "?a=about"}
+{$referralUrl = "?a=affiliate"}
+{$contactUrl = "?a=support"}
+{$tAndCUrl = "?a=rules"}
+{$resetPasswordUrl = "?a=forgot_password"}
+{$loginUrl = "?a=login"}
+{$signUpUrl = "?a=signup"}
+{$accountUrl = "?a=account"}
+{$siteName = "Skyline Trades LTD"}
 <html style="height: 100%;"><head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{$pageName} | {$settings.site_name}</title>
+    <title>{$pageName} | {$siteName}</title>
+    <link rel="icon" type="image/png" href="{$siteIcon}">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" name="viewport">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
@@ -16,6 +31,7 @@
             position: relative; min-height: 100%; top: 0;
         }
     </style>
+    <link rel="icon" type="image/png" href="{$siteIcon}">
 </head>
 <body class="body-class">
 
@@ -24,7 +40,7 @@
     <div class="main-header">
         <div class="logo-header">
             <a class="navbar-brand page-scroll sticky-logo" href="/">
-                <img src="images/main-logo.png" class="site-logo" alt="">
+                <img src="{$siteLogo}" class="site-logo" alt="">
             </a>
             <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
